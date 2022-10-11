@@ -1,27 +1,19 @@
-# Web Page of Horiseon 
-
-
+## Challenge 1 : HTML, CSS and Git : Code Refactor
 
 ## Description 
+This is the home page of Horiseon company - a marketing website. This page describes the main business of the company and provides contact information.
 
-This is the home page of Horiseon company.  This page describes the main business of the company and provides contact information. 
-
-
+The challenge is made of refactoring the existing codes for the website Horiseon, to make it more accessible.  The codebase were improved to make it function correctly.
 
 ## Technologies
 
 This page is created by HTML and CSS. 
 
-
-
 ## User Story
-
-```
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 ```
-
 ## Acceptance Criteria
 
 ```
