@@ -1,155 +1,108 @@
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-/*The above property is applied for the element content's box*/
 
-/* This is the style for body*/
 body {
     background-color: #d9dcd6;
 }
 
-/*This class is the style of header section*/
-
 .header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 20px;
 }
 
-/*This class is the style of header h1 section*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/*This class is the style of header nav section*/
-.header nav {
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header header, nav {
+    padding-top: 15px;
+    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    margin-right: 20px;
-    padding-top: 15px;
 }
-/* This class is the style of unordered list in the nav section*/
+
+.header nav ul {
+    list-style-type: none;
+}
+
 .header nav ul li {
     display: inline-block;
-    list-style-type: none;
     margin-left: 25px;
 }
 
-/*This is the style for anchor element*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*For paragraph, only consists of font-size*/
 p {
     font-size: 16px;
 }
 
-/*This is the style for div hero*/
-#hero {
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-position: center;
-    background-size: cover;
+.hero {
     height: 800px;
-    margin-bottom: 25px;
     width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-/*The style of the class float-left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/*The style of the class float-rightt*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* This class is the style of content section*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* This class is the style of benefit section*/
 .benefits {
-    background-color: #2589bd;
-    clear: both;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 100%;
     margin-right: 20px;
     padding: 20px;
+    clear: both;
+    float: right;
     width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
-
-/* The style of div class benefit-lead*/
-.benefit-lead {
+/*consolidated these elements with the same styling.*/
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-/* The style of div class benefit-brand*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* The style of div class benefit-cost*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* The style of h3 benefit-lead*/
-.benefit-lead h3 {
+/*consolidated these elements with the same styling.*/
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-/* The style of h3 benefit-brand*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* The style of h3 benefit-cost*/
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* The style of h3 benefit-lead image*/
-.benefit-lead img {
+/*consolidated these elements with the same styling.*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* The style of h3 benefit-brand image*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* The style of h3 benefit-cost image*/
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*This is the style for search-engine-optimization*/
-.search-engine-optimization {
+/*consolidated these elements with the same styling.*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -157,69 +110,23 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-/*This is the style for online-reputation-management*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*This is the style for .social-media-marketing */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*This is the style for search-engine-optimization img */
-.search-engine-optimization img {
+/*consolidated these elements with the same styling.*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-/*This is the style for search-engine-optimization img */
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/*This is the style for search-engine-optimization img */
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/*This is the style for search-engine-optimization h2 */
-.search-engine-optimization h2 {
+/*consolidated these elements with the same styling.*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/*This is the style for .online-reputation-management h2 */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*This is the style for .social-media-marketing h2 */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*This is the style for footer section */
 
 .footer {
+    padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 30px;
     text-align: center;
 }
 
-/*This is the style for footer h2 section */
 .footer h2 {
     font-size: 20px;
 }
