@@ -1,6 +1,7 @@
+
 ![Horieseon_MarketingAD](https://user-images.githubusercontent.com/112984208/194982195-00b36754-831f-49c9-b5c1-ca0e27b84213.jpeg)
 
-## Challenge 1 : HTML, CSS and Git : Code Refactor
+ HTML, CSS and Git : Code Refactor
 
 ## Description 
 This is the home page of Horiseon company - a marketing website. This page describes the main business of the company and provides contact information.
@@ -33,5 +34,5 @@ THEN I find a concise, descriptive title
 ```
 
 
-![Horieseon_MarketingAD](https://user-images.githubusercontent.com/112984208/219548604-94ee8685-7898-4ee3-b151-d623144c03c6.jpeg)
+
 
